@@ -1,0 +1,33 @@
+* 	{
+	font-family: Helvetica;
+}
+
+h1	{
+	text-align: center;
+	font-size: 100px;
+	color: khaki;
+	background-image: url(../images/banner.webp);	
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+#heading1 {
+	background-color: mediumspringgreen;
+}
+
+#heading2 {
+	background-color: lightcoral;
+}
+
+#heading3 {
+	background-color: skyblue;
+}
+
+span {
+	font-weight: bold;
+	color: blue;
+}
