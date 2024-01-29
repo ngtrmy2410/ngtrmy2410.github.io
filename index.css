@@ -1,0 +1,220 @@
+/* COLOR: #2c3440 #14181c #667788 */
+
+/* UNIVERSAL STYLES */
+
+@font-face {
+	font-family: "Sharp Grotesk";
+	src: url("sources/fonts/SharpGrotesk-SemiBold20.otf") format("OpenType");
+
+	font-family: "Graphik Bold";
+	src: url("sources/fonts/Graphik-Bold-Trial.otf") format("OpenType");
+	font-weight: 700;
+
+	font-family: "Graphik Semibold";
+	src: url("sources/fonts/Graphik-Semibold-Trial.otf") format("OpenType");
+	font-weight: 600;
+
+	font-family: "Graphik Regular";
+	src: url("sources/fonts/Graphik-Regular.otf") format("OpenType");
+	font-weight: 400;
+
+	font-family: "Graphik Light";
+	src: url("sources/fonts/Graphik-Light.otf") format("OpenType");
+	font-weight: 300;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background: #1f252b;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Sharp Grotesk", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+main section {
+	margin-bottom: 50px;
+}
+
+.right-side-more  {
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "Graphik Regular", sans-serif;
+	font-weight: 400;
+	color: #678;
+	text-transform: uppercase;
+	letter-spacing: 0.03125rem;
+}
+
+img {
+	/* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); */
+}
+
+/* HEADER (NAVIGATION BAR) -> nav-bar.css */
+
+/* MAIN */
+
+main {
+	width: 62.5rem;
+	display: block;
+	margin: 0 auto;
+}
+
+#welcome {
+	font-family: "Graphik Light", sans-serif;
+	font-weight: 300;
+	font-size: 1.5625rem;
+	color: #abc;
+	text-align: center;
+	margin-top: 4.375rem;
+}
+
+/* NEW FROM FRIENDS */
+
+.first-line {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin-bottom: 0.625rem;
+	border-bottom: 1px solid #678;
+}
+
+.first-line div {
+	height: 0.9rem;
+}
+
+.first-line h2 {
+	font-family: "Graphik Regular", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #abc;
+	text-transform: uppercase;
+	letter-spacing: 0.0625rem;
+	margin-bottom: 0.3125rem;
+}
+
+.first-line .fa-bolt {
+	color: #678;
+	font-size: 0.7rem;
+}
+
+.new-from-friends-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.new-from-friends-content a {
+	width: 9.75rem;
+}
+
+.new-from-friends-content .poster {
+	width: 9.75rem;
+	border: 1px solid #667788;
+	border-radius: 3px;
+	background-color: #3c4854;
+}
+
+.new-from-friends-content img {
+	width: 9.75rem;
+	height: auto;
+	border-radius: 3px 3px 0 0;
+}
+
+.new-from-friends-content #user {
+	display: flex;
+	align-items: center;
+}
+
+.new-from-friends-content #user img {
+	width: 18px;
+	height: auto;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.new-from-friends-content h3 {
+	font-family: "Graphik Bold", sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #8fabc7;
+	margin: 0;
+}
+
+.new-from-friends-content .rating {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.new-from-friends-content .fa-star {
+	font-size: 11px;
+	color: #678;
+	margin: 0;
+	padding: 0;
+}
+
+.new-from-friends-content .rating p {
+	font-family: "Graphik Regular", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #678;
+	margin: 0;
+}
+
+/* BANNER SECTION */
+
+.banner img {
+	width: 100%;
+}
+
+/* POPULAR WITH FRIENDS */
+
+.popular-with-friends figure {
+	width: 62.5rem;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.popular-with-friends figure a {
+	width: 156px;
+	border: 1px solid #667788;
+	border-radius: 3px;
+}
+
+.popular-with-friends figure a, .popular-with-friends img {
+	width: 156px;
+	height: 15rem;
+	border-radius: 3px;
+}
+
+/* OSCAR SECTION */
+
+.oscar-2024 figure {
+	width: 62.5rem;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.oscar-2024 figure a {
+	width: 92px;
+	height: 135px;
+	border: 1px solid #667788;
+	border-radius: 3px;
+}
+
+.oscar-2024 figure a, .oscar-2024 img {
+	width: auto;
+	height: 135px;
+	border-radius: 3px;
+}

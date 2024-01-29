@@ -1,0 +1,124 @@
+@font-face {
+	font-family: "Sharp Grotesk";
+	src: url("sources/fonts/SharpGrotesk-SemiBold20.otf") format("OpenType");
+
+	font-family: "Graphik Semibold Trial";
+	src: url("sources/fonts/Graphik-Semibold-Trial.otf") format("OpenType");
+	font-weight: 700;
+
+	font-family: "Graphik Regular";
+	src: url("sources/fonts/Graphik-Regular.otf") format("OpenType");
+	font-weight: 400;
+
+	font-family: "Graphik Light";
+	src: url("sources/fonts/Graphik-Light.otf") format("OpenType");
+	font-weight: 300;
+}
+
+header {
+	height: 4.5rem;
+	background-color: #14181c;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blank-space {
+	width: 6.25rem;
+	flex-shrink: 2;
+}
+
+.logo {
+	display: inline-block;
+	min-width: 15.6rem;
+	margin: 3.12rem;
+}
+
+.logo img {
+	width: 3.75rem;
+	height: auto;
+	display: inline-block;
+}
+
+.logo h1 {
+	color: white;
+	display: inline-block;
+	margin: 0.3rem;
+}
+
+#avatar {
+	width: 1.56rem;
+	height: auto;
+	border-radius: 50%;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+}
+
+header nav a, header p {
+	font-family: "Graphik Semibold Trial", sans-serif;
+	font-weight: 700;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.06rem;
+	color: #abc;
+	display: inline-block;
+	margin: 0 0.5rem;
+}
+
+header .user-name {
+	display: flex;
+	align-items: center;
+}
+
+header .user-name img, header .user-name i {
+	margin: 0 0.18rem;
+}
+
+header .username h5 {
+	font-size: 0.94rem;
+}
+
+header #username {
+	margin: 0 0.3rem 0 0;
+	padding: 0;
+}
+
+header .fa-chevron-down {
+	color: #abc;
+	font-size: 0.625rem;
+	margin-right: 0.625rem;
+}
+
+/* LOG BUTTON */
+
+#log-button {
+	background-color: #00ac1c;
+	padding: 0;
+	border-radius: 0.25rem;
+	border-top: 1px solid #1ac837;
+}
+
+#log-button div {
+	color: white;
+	padding: 0.3rem 0.3rem 0 0.4rem;
+	display: inline-block;
+	border-radius: 4px 0 0 4px;
+}
+
+#log-button p {
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+#log-button .fa-chevron-down {
+	color: white;
+	background-color: #15b82f;
+	margin: 0;
+	padding: 0.4rem;
+	border-radius: 0 4px 4px 0;
+}
